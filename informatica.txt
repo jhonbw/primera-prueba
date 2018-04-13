@@ -1,0 +1,15 @@
+
+PAGINAS
+* hwagm.elhacker.net/htm/tarjetas.htm
+* distrowatch.com
+* www.aircrack-ng.org/doku.php
+* www.linuxliveusb.com
+
+
+COMANDOS:
+NETSH INT TCP SET GLOBAL CHIMNEY=ENABLE
+
+
+
+PREGUNTAS:
+* como ejecutar como administrador
