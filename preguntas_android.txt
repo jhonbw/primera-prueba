@@ -1,0 +1,8 @@
+
+* diferencia entre Activity_Main y Content_Main
+
+* Android Asset Studio=  programa para crear iconos de app's en sus diferentes dimensiones.
+
+* Por que los metdos getSelectedItemPosition(); y getSelectedItem();, no funcionan dentro del    metodo onItemClick();
+
+* Se pueden usar los mismos metodos y clases con Spinner como con ListView?

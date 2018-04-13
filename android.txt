@@ -1,0 +1,30 @@
+curso windows 10  you tube en JGAITPro
+
+*Spinner.
+
+	ArrayAdapter <String> adapter =new ArrayAdapter<String>(this, 	android.R.layout.simple_spinner_item, opciones);
+
+	para darle atributos a las opciones del Spinner, creamos un layout con el estilo que 			necesitemos y lo llamamos en el segundo atributo de ArrayAdapter ej:
+
+	ArrayAdapter <String> adapter = new ArrayAdapter<String>(this, 
+	R.layout.mi_layout, opciones);
+* El metodo getSelectedItem(); devuelve el Item seleccionado en un Spinner.
+*El metodo getItemAtPosition();  devuelve el item selecionadoen una ListView.
+
+*        i.putExtra("dato",et1.getText().toString());------> Enviando datos a un activity
+
+*        String dato=getIntent().getStringExtra("dato");-----> Recibiendo datos de un activity
+
+* Poner a la escucha desde JAVA:
+	1. crear instancia de la clase que  queremos que se ejecute.
+		claseaejecutar nombreinstancia = new claseaejecutar();
+	2.Rescatar de xml la vista que va a disparar la instancia.
+		EditText VarVista= findViewById(R.id.variableX);
+	3.Poner a la eacucha la variable y asignarle el evento.
+		VarVista.setOnEditorActionListener(nombreinstancia);
+  La clase "claseaejecutar" debe de haber implemtado la interfaz TextView.OnEditorActionListener y  
+  por supuesto haber usado su metodo onEditorAction en su interior (video 21 pildoras informaticas).
+
+
+
+
